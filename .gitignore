@@ -1,0 +1,17 @@
+bin/
+obj/
+
+Build/
+Generated/
+Test/
+.cache/
+
+*.lib
+*.a
+
+*.make
+Makefile
+
+compile_commands.json
+debug.sh
+setup.sh
