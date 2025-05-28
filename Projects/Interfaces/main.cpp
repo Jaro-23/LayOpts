@@ -1,3 +1,6 @@
-#include <Parser.hpp>
+#include <ClangParser.hpp>
 
-int main() { return 0; }
+int main() {
+	LayOpts::ClangParser p{"./test.cpp", "c++20"};
+	return 0;
+}
